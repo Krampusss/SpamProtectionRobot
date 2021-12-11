@@ -52,8 +52,9 @@ async def help_command(_, message: Message):
             "Repo": "https://t.me/International_Crazy_World",
             "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
             "Support Chat (for now)": "https://t.me/International_Crazy_World",
-        }    "Spam and NSFW Logs": "https://t.me/CWLOGS", 
-    )
+            "Spam and NSFW Logs": "https://t.me/CWLOGS", 
+        }
+    ) 
     mention = message.from_user.mention
     await message.reply_photo(
         "https://telegra.ph/file/57b6cbda198a15866b485.jpg",
