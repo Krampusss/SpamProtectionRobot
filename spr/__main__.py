@@ -49,9 +49,9 @@ async def help_command(_, message: Message):
     kb = ikb(
         {
             "Help": "bot_commands",
-            "Repo": "https://t.me/International_Crazy_World",
+            "Repo": "https://t.me/InternationalCrazyWorldChatting",
             "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "Support Chat (for now)": "https://t.me/International_Crazy_World",
+            "Support Chat (for now)": "https://t.me/InternationalCrazyWorldChatting",
             "Spam and NSFW Logs": "https://t.me/CWLOGS", 
         }
     ) 
